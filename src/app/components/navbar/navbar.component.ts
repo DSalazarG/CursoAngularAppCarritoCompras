@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { CartItem } from '../../models/cartItem';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'navbar',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './navbar.component.html'
 })
 export class NavbarComponent {
