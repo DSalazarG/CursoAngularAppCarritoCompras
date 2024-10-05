@@ -1,6 +1,5 @@
-<navbar [items]="items"></navbar>
+<navbar [items]="items" 
+[total]="total"></navbar>
 <div class="container my-3">
-    <h2>Catalogo de productos App!</h2>
-    <catalog [products]="products" (productEventEmitter)="onAddCartMain($event)"></catalog>
     <router-outlet></router-outlet>
 </div>
